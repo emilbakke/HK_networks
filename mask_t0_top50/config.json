@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://drive.google.com/file/d/1MsaPFXUeouSw_B44d7Jwbaq8o1KxVLsX/view?usp\u003dsharing",
+    "text": "Emil Bakkensen Johansen"
+  },
+  "text": {
+    "more": "Ego co-occurrence network for mask actant (black node).\n\nTop 50 highest scoring nodes by degree score. \n\nDegree threshold set at 242, amounting to network consisting of 51 nodes.\n\nTime period 0 of 2019 Hong Kong Protests: 2019-02-11 – 2019-08-01.\n\nFor analytical interpretations of network, please refer to my paper: https://drive.google.com/file/d/1MsaPFXUeouSw_B44d7Jwbaq8o1KxVLsX/view?usp\u003dsharing",
+    "intro": "Ego co-occurrence network for mask actant (black node).\n\nTop 50 highest scoring nodes by degree score. \n\nDegree threshold set at 242, amounting to network consisting of 51 nodes.\n\nTime period 0 of 2019 Hong Kong Protests: 2019-02-11 – 2019-08-01.",
+    "title": "Ego network for mask actant. Time period 0 of 2019 Hong Kong Protests."
+  },
+  "legend": {
+    "edgeLabel": "Co-occurrences",
+    "colorLabel": "Modularity group",
+    "nodeLabel": "Actants (nouns)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 30
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
